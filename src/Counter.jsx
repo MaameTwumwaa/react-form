@@ -6,7 +6,7 @@ import "./App.css";
 //the default value for user state is (0)
 
 //this is how to create the state
-const App = () => {
+const Counter = () => {
   const [number, setNumber] = useState(0);
   const [name, setName] = useState("Kofi");
   const [age, setAge] = useState(23);
@@ -26,4 +26,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Counter;
